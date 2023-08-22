@@ -1,0 +1,29 @@
+{
+  "name": "college-quora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix frontend",
+    "server": "nodemon backend/server",
+    "start": "nodemon --watch backend --exec node backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@sweetalert2/theme-dark": "^5.0.15",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.1",
+    "nodemon": "^2.0.22",
+    "react-redux": "^8.0.5",
+    "sweetalert2": "^11.7.5"
+  }
+}
